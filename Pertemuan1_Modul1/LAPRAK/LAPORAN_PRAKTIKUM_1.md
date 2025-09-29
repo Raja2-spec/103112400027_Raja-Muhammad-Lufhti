@@ -2,9 +2,9 @@
 <p align="center">Raja Muhammad Lufhti - 103112400027</p>
 
 ## Dasar Teori
-isi dengan penjelasan dasar teori disertai referensi jurnal (gunakan kurung siku [] untuk pernyataan yang mengambil refernsi dari jurnal).
-contoh :
-Linked list atau yang disebut juga senarai berantai adalah Salah satu bentuk struktur data yang berisi kumpulan data yang tersusun secara sekuensial, saling bersambungan, dinamis, dan terbatas[1]. Linked list terdiri dari sejumlah node atau simpul yang dihubungkan secara linier dengan bantuan pointer.
+Pemrograman adalah proses menuliskan instruksi logis agar komputer dapat menjalankan tugas tertentu. Bahasa C++ termasuk bahasa pemrograman tingkat tinggi yang banyak digunakan karena mendukung paradigma prosedural dan berorientasi objek. Dalam praktiknya, IDE seperti Code::Blocks mempermudah penulisan, kompilasi, dan eksekusi program.
+
+Konsep dasar pemrograman meliputi variabel dan tipe data, operator, percabangan (if, switch), perulangan (for, while, do–while), serta struktur data sederhana seperti array dan struct. Penguasaan konsep ini menjadi fondasi untuk menyusun logika program dan memecahkan masalah komputasi [1].
 
 ## Guided 
 
@@ -295,9 +295,8 @@ penjelasan unguided 3:
 Program ini mencetak pola angka menurun dan naik dengan simbol * di tengah, bergeser ke kanan tiap baris sesuai input n.
 
 ## Kesimpulan
-...
+Berdasarkan praktikum yang dilakukan, dapat disimpulkan bahwa pengenalan bahasa pemrograman C++ melalui IDE Code::Blocks sangat membantu dalam memahami konsep dasar pemrograman. Mahasiswa dapat mempelajari penggunaan variabel, operator, percabangan, perulangan, serta struktur data sederhana melalui contoh program yang terstruktur. Selain itu, latihan yang diberikan menunjukkan bagaimana logika pemrograman dapat diterapkan untuk memecahkan berbagai permasalahan, mulai dari operasi aritmatika hingga pembuatan pola angka. Dengan memahami dasar-dasar ini, mahasiswa memperoleh fondasi penting untuk mempelajari konsep pemrograman lanjutan di kemudian hari [1].
 
 ## Referensi
-[1] Triase. (2020). Diktat Edisi Revisi : STRUKTUR DATA. Medan: UNIVERSTAS ISLAM NEGERI SUMATERA UTARA MEDAN. 
-<br>[2] Indahyati, Uce., Rahmawati Yunianita. (2020). "BUKU AJAR ALGORITMA DAN PEMROGRAMAN DALAM BAHASA C++". Sidoarjo: Umsida Press. Diakses pada 10 Maret 2024 melalui https://doi.org/10.21070/2020/978-623-6833-67-4.
+[1] Jurusan Teknik Elektro, Fakultas Teknik, Universitas Negeri Malang. (2017/2018). Modul Praktikum Dasar Pemrograman Komputer: Modul 1 – Pengenalan Pemrograman [PDF]. Universitas Negeri Malang. https://elektro.um.ac.id/wp-content/uploads/2016/04/Dasar-Pemrograman-Modul-1-Pengenalan-Pemrograman.pdf
 <br>...
