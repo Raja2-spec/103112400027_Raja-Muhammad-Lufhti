@@ -195,31 +195,104 @@ int main() {
 ##### Output 1
 ![Screenshot Output Unguided 1_1](https://github.com/Raja2-spec/103112400027_Raja-Muhammad-Lufhti/blob/main/Pertemuan1_Modul1/LAPRAK/Raja_Muhammad_Lufhti-Output-Unguided1.png)
 
-penjelasan unguided 1 
+penjelasan unguided 1:
+Program C++ di atas meminta dua angka dari pengguna lalu menampilkan hasil penjumlahan, pengurangan, perkalian, dan pembagiannya.
 
-### 2. (isi dengan soal unguided 2)
+
+### 2. Soal Unguided2
 
 ```C++
-source code unguided 2
+#include <iostream>
+using namespace std;
+int main() {
+    string satuan[] = {"", "satu", "dua", "tiga", "empat", "lima", 
+                       "enam", "tujuh", "delapan", "sembilan"};
+    string belasan[] = {"sepuluh", "sebelas", "dua belas", "tiga belas", 
+                        "empat belas", "lima belas", "enam belas", 
+                        "tujuh belas", "delapan belas", "sembilan belas"};
+    string puluhan[] = {"", "", "dua puluh", "tiga puluh", "empat puluh", 
+                        "lima puluh", "enam puluh", "tujuh puluh", 
+                        "delapan puluh", "sembilan puluh"};
+
+    int n;
+    cout << "Masukkan angka (0 - 100): ";
+    cin >> n;
+
+    cout << n << " : ";
+
+    if (n == 0) {
+        cout << "nol";
+    } 
+    else if (n == 100) {
+        cout << "seratus";
+    }
+    else if (n < 10) {
+        cout << satuan[n];
+    }
+    else if (n < 20) {
+        cout << belasan[n - 10];
+    }
+    else {
+        int puluh = n / 10;
+        int sisa = n % 10;
+        cout << puluhan[puluh];
+        if (sisa != 0) {
+            cout << " " << satuan[sisa];
+        }
+    }
+
+    cout << endl;
+    return 0;
+}
 ```
 ### Output Unguided 2 :
 
-##### Output 1
-![Screenshot Output Unguided 1_1](https://github.com/Raja2-spec/103112400027_Raja-Muhammad-Lufhti/blob/main/Pertemuan1_Modul1/LAPRAK/Raja_Muhammad_Lufhti-Output-Unguided2.png)
+##### Output 2
+![Screenshot Output Unguided 2_2](https://github.com/Raja2-spec/103112400027_Raja-Muhammad-Lufhti/blob/main/Pertemuan1_Modul1/LAPRAK/Raja_Muhammad_Lufhti-Output-Unguided2.png)
 
-penjelasan unguided 2
+penjelasan unguided 2:
+Program C++ ini mengubah angka 0–100 menjadi teks bahasa Indonesia dengan menentukan apakah angka termasuk nol, seratus, satuan, belasan, atau puluhan lalu mencetak hasilnya.
 
-### 3. (isi dengan soal unguided 3)
+### 3. Soal Unguided3
 
 ```C++
-source code unguided 3
+#include<iostream>
+using namespace std;
+int main(){
+    int n; //3
+    int x = 1;
+    cin >> n;
+
+    for (int i = n; i >= 1; i--)
+    {
+        for (int j = i; j >= 1; j--)
+        {
+            cout << j;
+        }
+        cout << "*" ;
+        
+        for (int k = 1; k <= i; k++)
+        {
+            cout << k;
+        }
+        cout << endl;
+        
+        for (int l = 1; l <= x; l++)
+        {
+            cout << " ";
+        }
+        x++;
+    }
+    cout << "*";
+}
 ```
 ### Output Unguided 3 :
 
-##### Output 1
-![Screenshot Output Unguided 1_1](https://github.com/Raja2-spec/103112400027_Raja-Muhammad-Lufhti/blob/main/Pertemuan1_Modul1/LAPRAK/Raja_Muhammad_Lufhti-Output-Unguided3.png)
+##### Output 3
+![Screenshot Output Unguided 3_3](https://github.com/Raja2-spec/103112400027_Raja-Muhammad-Lufhti/blob/main/Pertemuan1_Modul1/LAPRAK/Raja_Muhammad_Lufhti-Output-Unguided3.png)
 
-penjelasan unguided 3
+penjelasan unguided 3:
+Program ini mencetak pola angka menurun dan naik dengan simbol * di tengah, bergeser ke kanan tiap baris sesuai input n.
 
 ## Kesimpulan
 ...
