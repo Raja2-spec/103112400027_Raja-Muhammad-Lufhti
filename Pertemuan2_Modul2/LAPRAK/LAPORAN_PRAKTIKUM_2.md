@@ -1,10 +1,12 @@
-# <h1 align="center">Laporan Praktikum Modul 1 - Codeblocks IDE & Pengenalan Bahas C++ (Bagian Pertama)</h1>
+# <h1 align="center">Laporan Praktikum Modul 2 - Pengenalan Bahasa C++ (Bagian Kedua)</h1>
 <p align="center">Raja Muhammad Lufhti - 103112400027</p>
 
 ## Dasar Teori
-Pemrograman adalah proses menuliskan instruksi logis agar komputer dapat menjalankan tugas tertentu. Bahasa C++ termasuk bahasa pemrograman tingkat tinggi yang banyak digunakan karena mendukung paradigma prosedural dan berorientasi objek. Dalam praktiknya, IDE seperti Code::Blocks mempermudah penulisan, kompilasi, dan eksekusi program.
+Struktur data merupakan salah satu bahan dasar pembuatan program. Pemakaian struktur data yang tepat di dalam proses pemrograman, akan menghasilkan algoritma yang jelas dan tepat sehingga menjadikan program secara keseluruhan lebih sederhana. Array merupakan bagian dari struktur data yaitu termasuk kedalam struktur data sederhana yang dapat di definisikan sebagai pemesanan alokasi memory sementara pada komputer.
 
-Konsep dasar pemrograman meliputi variabel dan tipe data, operator, percabangan (if, switch), perulangan (for, while, do–while), serta struktur data sederhana seperti array dan struct. Penguasaan konsep ini menjadi fondasi untuk menyusun logika program dan memecahkan masalah komputasi [1].
+Struktur data : Struktur Data memberikan penjelasan tentang suatu koleksi atau kelompok data yang dapat dikarakteristikan oleh organisasi serta operasi yang didefinisikan terhadapnya. Pemakaian struktur data yang tepat didalam proses pemrograman,akan menghasilkan algoritma yang kebih jelas dan tepat sehingga menjadikan program secara keseluruhan lebih sederhana.
+
+Array :Array adalah suatu struktur yang terdiri dari sejumlah elemen yang memiliki tipe data yang sama. Elemen-elemen array tersusun secara sekuensial dalam memori komputer. Semua elemem array bertipe sama. Array cocok untuk organisasi kumpulan data homogen yang ukuran atau jumlah elemen maksimumnya telah diketahui dari awal. Homogen adalah bahwa setiap elemen dari sebuah array tertentu haruslah mempunyai tipe data yang sama[1].
 
 ## Guided 
 
@@ -315,8 +317,12 @@ Program ini simpel: awalnya punya panjang 10 dan lebar 5, lalu dihitung luas dan
 
 
 ## Kesimpulan
-Berdasarkan praktikum yang dilakukan, dapat disimpulkan bahwa pengenalan bahasa pemrograman C++ melalui IDE Code::Blocks sangat membantu dalam memahami konsep dasar pemrograman. Mahasiswa dapat mempelajari penggunaan variabel, operator, percabangan, perulangan, serta struktur data sederhana melalui contoh program yang terstruktur. Selain itu, latihan yang diberikan menunjukkan bagaimana logika pemrograman dapat diterapkan untuk memecahkan berbagai permasalahan, mulai dari operasi aritmatika hingga pembuatan pola angka. Dengan memahami dasar-dasar ini, mahasiswa memperoleh fondasi penting untuk mempelajari konsep pemrograman lanjutan di kemudian hari [1].
+Dari praktikum Modul 2 tentang Pengenalan Bahasa C++ (Bagian Kedua), dapat disimpulkan bahwa penggunaan array, pointer, serta operasi dasar pada struktur data sangat penting untuk mendukung proses pemrograman. Array memungkinkan penyimpanan data dengan tipe yang sama secara terstruktur dan mudah diakses, baik menggunakan indeks maupun pointer.
+
+Selain itu, percobaan dengan operasi matriks (penjumlahan, pengurangan, dan perkalian) memberikan gambaran bagaimana array dua dimensi dapat dimanfaatkan untuk menyelesaikan perhitungan matematis. Penerapan pointer juga memperlihatkan fleksibilitas dalam mengubah dan mengakses data melalui alamat memori.
+
+Secara keseluruhan, praktikum ini membantu memahami konsep dasar manipulasi data menggunakan array dan pointer di C++, yang nantinya akan sangat berguna dalam menyelesaikan permasalahan yang lebih kompleks pada pemrograman maupun pengembangan sistem.[1].
 
 ## Referensi
-[1] Jurusan Teknik Elektro, Fakultas Teknik, Universitas Negeri Malang. (2017/2018). Modul Praktikum Dasar Pemrograman Komputer: Modul 1 – Pengenalan Pemrograman [PDF]. Universitas Negeri Malang. https://elektro.um.ac.id/wp-content/uploads/2016/04/Dasar-Pemrograman-Modul-1-Pengenalan-Pemrograman.pdf
+[1] Pratama, M. A. (2020, March 29). STRUKTUR DATA ARRAY DUA DIMENSI  PADA PEMROGRAMAN C++. https://doi.org/10.31219/osf.io/vyech
 <br>...
