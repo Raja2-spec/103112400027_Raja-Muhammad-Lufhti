@@ -682,7 +682,7 @@ int main() {
 ### Output Unguided 1 :
 
 ##### Output 1
-![Output Program 1](https://github.com/Raja2-spec/103112400027_Raja-Muhammad-Lufhti/blob/main/Pertemuan8_Modul8/LAPRAK/Raja_Muhammad_Lufhti_Output_UNGUIDED.png)
+![Output Program 1](https://github.com/Raja2-spec/103112400027_Raja-Muhammad-Lufhti/blob/main/Pertemuan10_Modul10/LAPRAK/Raja_Muhammad_Lufhti_Output_UNGUIDED.png)
 
 Pada tahap ini dibuat struktur dasar Binary Search Tree menggunakan pointer (linked list) sebagai representasi dinamis. Fungsi utama meliputi alokasi node, insert dengan aturan BST (nilai lebih kecil ke kiri dan lebih besar ke kanan), findNode untuk pencarian, dan printInorder untuk menampilkan isi tree secara terurut. Bagian ini merupakan fondasi karena menentukan bagaimana tree menyimpan dan mengatur data sebelum fungsi lanjutan ditambahkan.
 
@@ -824,7 +824,7 @@ int main() {
 ### Output Unguided 2 :
 
 ##### Output 1
-![Output Program 1](https://github.com/Raja2-spec/103112400027_Raja-Muhammad-Lufhti/blob/main/Pertemuan8_Modul8/LAPRAK/Raja_Muhammad_Lufhti_Output_UNGUIDED02.png)
+![Output Program 1](https://github.com/Raja2-spec/103112400027_Raja-Muhammad-Lufhti/blob/main/Pertemuan10_Modul10/LAPRAK/Raja_Muhammad_Lufhti_Output_UNGUIDED02.png)
 
 Pada langkah ini ditambahkan fungsi untuk menghitung karakteristik tree, yaitu jumlah seluruh node (hitungJumlahNode), total nilai data (hitungTotalInfo), dan kedalaman tree (hitungKedalaman). Semua fungsi menggunakan rekursi karena struktur tree bersifat hierarkis dan dapat diselesaikan dengan pemanggilan fungsi berulang pada subtree. Hasil fungsi ini membantu memahami struktur tree yang terbentuk dan mengevaluasi ukuran serta kompleksitasnya.
 
@@ -957,7 +957,7 @@ int main() {
 ### Output Unguided 3 :
 
 ##### Output 1
-![Output Program 1](https://github.com/Raja2-spec/103112400027_Raja-Muhammad-Lufhti/blob/main/Pertemuan8_Modul8/LAPRAK/Raja_Muhammad_Lufhti_Output_UNGUIDED03.png)
+![Output Program 1](https://github.com/Raja2-spec/103112400027_Raja-Muhammad-Lufhti/blob/main/Pertemuan10_Modul10/LAPRAK/Raja_Muhammad_Lufhti_Output_UNGUIDED03.png)
 
 Pada tahap terakhir ditambahkan dua metode traversal tambahan selain inorder, yaitu Preorder (root → kiri → kanan) dan Postorder (kiri → kanan → root). Tujuan langkah ini adalah menunjukkan bagaimana data dalam tree dapat diakses dengan urutan berbeda berdasarkan kebutuhan aplikasi, misalnya preorder untuk pembuatan kembali tree, dan postorder untuk penghapusan struktur tree. Bagian ini melengkapi pemahaman implementasi BST dengan cara membaca data dalam berbagai pola traversal.
 
